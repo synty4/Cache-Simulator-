@@ -1,0 +1,15 @@
+This Java program simulates a Level-1 CPU Cache.
+
+To compile the program:
+javac MyCacheSimulator.java
+
+java MyCacheSimulator <filename> <Number of row> <Block size> <Set Associativity> <Replacement Policy> <Write Policy>
+
+FileName ex: pintrace
+Number of row:2, 4, 8, 16, 32, ...
+Block size: 8, 16, 32, ...
+Set Associativity: 2, 4, 8, 16
+Replacement Policy: LRU, lru 
+Write Policy: ALLOC, alloc
+
+
